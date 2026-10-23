@@ -1,0 +1,19 @@
+{
+  "name": "console-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A sample interactive TypeScript console calculator.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/cli.js",
+    "test": "npm run build && node --test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.0"
+  }
+}
